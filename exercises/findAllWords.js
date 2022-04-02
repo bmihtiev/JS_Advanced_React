@@ -14,7 +14,7 @@
 const testStr = `this is not meaningful.R2-D2 is a robot, first_second,1st of July`;
 
 // YOUR CODE HERE
-var re = /[a-zA-Z0-2_-]{3,}/ig;
+var re = /[a-zA-Z2_-]{3,}/g;
 
 let output = testStr.match(re);
 document.writeln(output);
